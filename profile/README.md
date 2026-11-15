@@ -30,7 +30,7 @@ Duas regras governam cada linha de código desta organização:
 | [worker](https://github.com/quorum-bench/worker) | A caixa de saída, a agenda e os expurgos | completa |
 | [midia](https://github.com/quorum-bench/midia) | A limpeza de imagem e PDF antes de qualquer arquivo ir ao ar | completa |
 | [banco](https://github.com/quorum-bench/banco) | As migrações do PostgreSQL, as funções `api.*` e a segurança por linha | completa |
-| [pacotes](https://github.com/quorum-bench/pacotes) | O domínio, os contratos da `/v1`, as portas e a guarda do código | básica |
+| [pacotes](https://github.com/quorum-bench/pacotes) | O domínio, os contratos da `/v1`, as portas e a guarda do código | completa |
 | [design-system](https://github.com/quorum-bench/design-system) | Os tokens, os componentes e a marca BENCH | completa |
 | [app-movel](https://github.com/quorum-bench/app-movel) | O aplicativo, que fala só com a `api` | básica |
 | [infra](https://github.com/quorum-bench/infra) | A infraestrutura como código e o ambiente local em contêineres | básica |
