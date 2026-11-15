@@ -1,30 +1,57 @@
-<p align="center"><img src="faixa.svg" alt="BENCH, avaliação de par para par" width="100%"></p>
+<p align="center">
+  <img src="assets/faixa.png" alt="BENCH: avaliação de fornecedores de tecnologia de par para par, por propósito. Uma iniciativa da QUORUM." width="100%">
+</p>
 
-# Bench
+<p align="center">
+  <img alt="Estado: pré-lançamento" src="https://img.shields.io/badge/estado-pr%C3%A9--lan%C3%A7amento-b45309">
+  <img alt="Idioma: português do Brasil" src="https://img.shields.io/badge/idioma-pt--BR-1f6a66">
+</p>
 
-Avaliação de fornecedores de tecnologia de par para par, por propósito: quem compra vê a leitura de quem já usou em três leituras, Fit, Neutro e Unfit, com o número de avaliações ao lado, nunca nota única nem estrela, e nenhum plano compra nota ou posição.
+**O Bench é onde quem compra tecnologia numa grande empresa consulta a experiência de quem já usou o fornecedor, para o mesmo propósito.** A leitura dos pares aparece em três partes, Fit, Neutro e Unfit, com o número de avaliações ao lado. Nunca nota única, estrela ou ranking, e nenhum plano de fornecedor compra nota, posição ou destaque.
 
-Uma iniciativa da QUORUM.
+Duas regras governam cada linha de código desta organização:
 
-## Repositórios
+> **Nada identifica quem pesquisa.** O fornecedor só sabe quem é o comprador quando o comprador pede contato.
+>
+> **Um grupo pequeno não aparece.** A leitura de um grupo só é mostrada com pessoas suficientes de empresas diferentes; abaixo disso, a célula fica guardada.
 
-| Repositório | O que é |
-|---|---|
-| `docs` | Decisões, requisitos, arquitetura, plano e operação. |
-| `design-system` | Tokens, componentes e marca BENCH. |
-| `banco` | Migrações, funções e testes do banco. |
-| `pacotes` | Domínio, contratos e as bibliotecas comuns. |
-| `web` | O site de quem compra e de quem fornece. |
-| `api` | A API que o aplicativo e as integrações usam. |
-| `console` | O console da equipe. |
-| `worker` | Os trabalhos em segundo plano. |
-| `midia` | O tratamento de imagens e arquivos. |
-| `app-movel` | O aplicativo. |
-| `infra` | A infraestrutura como código e o ambiente local. |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/mapa.escuro.svg">
+  <img alt="Os repositórios do Bench: banco, pacotes e design-system publicam os pacotes; web, console, api, worker e midia são os serviços; o app-movel fala só com a api; a infra sobe tudo; docs guarda as decisões." src="assets/mapa.claro.svg">
+</picture>
+
+## Os repositórios
+
+| Repositório | O que é | Documentação |
+| --- | --- | --- |
+| [web](https://github.com/quorum-bench/web) | A vitrine de quem compra, a avaliação em sete passos e o painel de quem fornece | completa |
+| [console](https://github.com/quorum-bench/console) | O console da equipe: moderação, casos, contas, equipe e comercial | básica |
+| [api](https://github.com/quorum-bench/api) | A API `/v1` que o aplicativo e as integrações usam | básica |
+| [worker](https://github.com/quorum-bench/worker) | A caixa de saída, a agenda e os expurgos | básica |
+| [midia](https://github.com/quorum-bench/midia) | A limpeza de imagem e PDF antes de qualquer arquivo ir ao ar | básica |
+| [banco](https://github.com/quorum-bench/banco) | As migrações do PostgreSQL, as funções `api.*` e a segurança por linha | básica |
+| [pacotes](https://github.com/quorum-bench/pacotes) | O domínio, os contratos da `/v1`, as portas e a guarda do código | básica |
+| [design-system](https://github.com/quorum-bench/design-system) | Os tokens, os componentes e a marca BENCH | básica |
+| [app-movel](https://github.com/quorum-bench/app-movel) | O aplicativo, que fala só com a `api` | básica |
+| [infra](https://github.com/quorum-bench/infra) | A infraestrutura como código e o ambiente local em contêineres | básica |
+| [docs](https://github.com/quorum-bench/docs) | As decisões, os requisitos, a arquitetura, o plano e a operação | básica |
+
+"Completa" quer dizer: README com diagramas e telas reais, guias de começar, arquitetura, referência, operação, testes e solução de problemas, e conferências que reprovam link quebrado e tabela desatualizada. Os outros repositórios seguem o mesmo padrão da `web`.
 
 ## Como trabalhamos
 
-- Toda mudança entra por pull request, com a evidência real dos testes e uma revisão de quem não escreveu o código.
-- Uma decisão só vale quando está registrada, com a situação dela.
-- Dado de pessoa nunca entra em teste, semente ou log: só pessoas fictícias.
-- A publicação em produção é sempre aprovada por uma pessoa.
+| Regra | Quem a executa |
+| --- | --- |
+| Toda mudança entra por pull request, com a saída real dos testes colada | O modelo de PR de cada repositório |
+| A regra de negócio mora no banco, numa função com teste; o serviço só chama | Os testes pgTAP do `banco` e o papel de banco de cada serviço, que só executa o que o código dele chama |
+| Uma decisão só vale quando está registrada, com data e situação | Os ADRs do `docs` |
+| Dado de pessoa nunca entra em teste, semente, tela ou log | A semente fictícia, que recusa rodar fora do ambiente local |
+| Segredo nunca entra no repositório | O gitleaks antes de cada envio |
+| Texto e código seguem a mesma escrita e a mesma marca | A guarda do código, que roda no `verificar` de cada repositório |
+| A publicação em produção é sempre aprovada por uma pessoa | O fluxo de publicação da `infra` |
+
+## Para quem é da organização
+
+Quem é membro vê, nesta mesma página, o perfil interno: as telas do produto, como subir o ambiente local, as contas de teste e o estado de cada repositório.
+
+Uma iniciativa da QUORUM.
