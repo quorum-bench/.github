@@ -33,7 +33,7 @@ Duas regras governam cada linha de código desta organização:
 | [pacotes](https://github.com/quorum-bench/pacotes) | O domínio, os contratos da `/v1`, as portas e a guarda do código | completa |
 | [design-system](https://github.com/quorum-bench/design-system) | Os tokens, os componentes e a marca BENCH | completa |
 | [app-movel](https://github.com/quorum-bench/app-movel) | O aplicativo, que fala só com a `api` | básica |
-| [infra](https://github.com/quorum-bench/infra) | A infraestrutura como código e o ambiente local em contêineres | básica |
+| [infra](https://github.com/quorum-bench/infra) | A infraestrutura como código e o ambiente local em contêineres | completa |
 | [docs](https://github.com/quorum-bench/docs) | As decisões, os requisitos, a arquitetura, o plano e a operação | completa |
 
 "Completa" quer dizer: README com diagramas e telas reais, guias de começar, arquitetura, referência, operação, testes e solução de problemas, e conferências que reprovam link quebrado e tabela desatualizada. Os outros repositórios seguem o mesmo padrão da `web`.
