@@ -1,0 +1,31 @@
+name: Fatia de construção
+description: Uma fatia do backlog, com a estação, o artefato e o critério de pronto.
+labels: [fatia]
+body:
+  - type: input
+    id: estacao
+    attributes:
+      label: Estação e artefato
+      description: "Por exemplo: Construir; a guarda do registro de acesso."
+    validations:
+      required: true
+  - type: textarea
+    id: o-que
+    attributes:
+      label: O que entra
+    validations:
+      required: true
+  - type: textarea
+    id: pronto
+    attributes:
+      label: Como provar que está pronto
+      description: O teste que reprova antes, a conferência e a prova no navegador, se houver tela.
+    validations:
+      required: true
+  - type: textarea
+    id: pessoa-e-custo
+    attributes:
+      label: Dado de pessoa, anonimato e custo
+      description: Toca dado de pessoa? Muda o que o fornecedor vê? Cria recurso pago (com o custo em dólar)?
+    validations:
+      required: true

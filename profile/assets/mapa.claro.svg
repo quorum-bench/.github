@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="titulo desc" font-family="'Source Sans 3', 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif">
-<title id="titulo">Os repositórios do Bench</title><desc id="desc">Os serviços web, console, api, worker e midia usam os três pacotes publicados: banco, pacotes e design-system. O aplicativo fala só com a api, pela /v1. A infra sobe e publica os serviços. A documentação e o perfil da organização ficam num grupo próprio.</desc>
+<title id="titulo">Os repositórios do Bench</title><desc id="desc">Os serviços web, console, api, worker e midia usam os três pacotes: banco, pacotes e design-system. O aplicativo fala só com a api, pela /v1. A infra sobe e publica os serviços. A documentação e o perfil da organização ficam num grupo próprio.</desc>
 <defs><marker id="ponta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4a5a5a"/></marker><marker id="pontaMarca" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f6a66"/></marker></defs>
 <rect width="1600" height="1000" fill="#ffffff"/>
 <text x="40" y="54" font-family="'Squada One', 'Arial Narrow', Impact, sans-serif" font-size="34" fill="#0f1a1a">BENCH<tspan fill="#3ac5bd">.</tspan></text>
 <text x="172" y="52" font-size="22" font-weight="600" fill="#0f1a1a">Os repositórios do Bench</text>
-<text x="172" y="76" font-size="15" fill="#4a5a5a">Três pacotes publicados, cinco serviços, o aplicativo, a infraestrutura e a documentação</text>
+<text x="172" y="76" font-size="15" fill="#4a5a5a">Três pacotes, cinco serviços, o aplicativo, a infraestrutura e a documentação</text>
 <rect x="40" y="110" width="1520" height="200" rx="14" fill="none" stroke="#8aa3a2" stroke-width="1.5" stroke-dasharray="7 6"/>
-<text x="56" y="134" font-size="13" font-weight="700" letter-spacing="1.2" fill="#4a5a5a">PACOTES PUBLICADOS</text>
+<text x="56" y="134" font-size="13" font-weight="700" letter-spacing="1.2" fill="#4a5a5a">PACOTES</text>
 <rect x="40" y="400" width="1520" height="200" rx="14" fill="none" stroke="#8aa3a2" stroke-width="1.5" stroke-dasharray="7 6"/>
 <text x="56" y="424" font-size="13" font-weight="700" letter-spacing="1.2" fill="#4a5a5a">SERVIÇOS</text>
 <rect x="40" y="690" width="1000" height="220" rx="14" fill="none" stroke="#8aa3a2" stroke-width="1.5" stroke-dasharray="7 6"/>

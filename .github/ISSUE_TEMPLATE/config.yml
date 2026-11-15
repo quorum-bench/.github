@@ -1,0 +1,3 @@
+# Sem issue em branco: cada pedido escolhe um modelo. Falha de segurança não vai por issue: siga o SECURITY.md da
+# organização (github.com/quorum-bench/.github).
+blank_issues_enabled: false

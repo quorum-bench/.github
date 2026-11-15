@@ -1,10 +1,17 @@
 <p align="center">
-  <img src="assets/faixa.png" alt="BENCH: avaliação de fornecedores de tecnologia de par para par, por propósito. Uma iniciativa da QUORUM." width="100%">
+  <img src="assets/faixa.png" alt="BENCH: onde quem compra tecnologia numa grande empresa consulta a experiência de quem já usou o fornecedor, para o mesmo propósito. Uma iniciativa da QUORUM." width="100%">
 </p>
 
 <p align="center">
   <img alt="Estado: pré-lançamento" src="https://img.shields.io/badge/estado-pr%C3%A9--lan%C3%A7amento-b45309">
   <img alt="Idioma: português do Brasil" src="https://img.shields.io/badge/idioma-pt--BR-1f6a66">
+</p>
+
+<p align="center">
+  <a href="#os-repositórios">Os repositórios</a> ·
+  <a href="#como-trabalhamos">Como trabalhamos</a> ·
+  <a href="#segurança-e-contato">Segurança e contato</a> ·
+  <a href="#para-quem-é-da-organização">Para quem é da organização</a>
 </p>
 
 **O Bench é onde quem compra tecnologia numa grande empresa consulta a experiência de quem já usou o fornecedor, para o mesmo propósito.** A leitura dos pares aparece em três partes, Fit, Neutro e Unfit, com o número de avaliações ao lado. Nunca nota única, estrela ou ranking, e nenhum plano de fornecedor compra nota, posição ou destaque.
@@ -17,10 +24,13 @@ Duas regras governam cada linha de código desta organização:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/mapa.escuro.svg">
-  <img alt="Os repositórios do Bench: banco, pacotes e design-system publicam os pacotes; web, console, api, worker e midia são os serviços; o app-movel fala só com a api; a infra sobe tudo; docs guarda as decisões." src="assets/mapa.claro.svg">
+  <img alt="Os repositórios do Bench: banco, pacotes e design-system são os pacotes; web, console, api, worker e midia são os serviços; o app-movel fala só com a api; a infra sobe tudo; docs guarda as decisões." src="assets/mapa.claro.svg">
 </picture>
 
 ## Os repositórios
+
+> [!NOTE]
+> Os repositórios abaixo são privados durante o pré-lançamento. Os links abrem para quem é membro da organização.
 
 | Repositório | O que é | Documentação |
 | --- | --- | --- |
@@ -36,8 +46,7 @@ Duas regras governam cada linha de código desta organização:
 | [infra](https://github.com/quorum-bench/infra) | A infraestrutura como código e o ambiente local em contêineres | completa |
 | [docs](https://github.com/quorum-bench/docs) | As decisões, os requisitos, a arquitetura, o plano e a operação | completa |
 
-"Completa" quer dizer: README com diagramas e telas reais, guias de começar, arquitetura, referência, operação, testes e solução de problemas, e conferências que reprovam link quebrado e tabela desatualizada. Os outros repositórios seguem o mesmo padrão da `web`.
-
+"Completa" quer dizer: README com diagramas e telas reais, guias de começar, arquitetura, referência, operação, testes e solução de problemas, e conferências que reprovam link quebrado e tabela desatualizada.
 ## Como trabalhamos
 
 | Regra | Quem a executa |
@@ -49,6 +58,10 @@ Duas regras governam cada linha de código desta organização:
 | Segredo nunca entra no repositório | O gitleaks antes de cada envio |
 | Texto e código seguem a mesma escrita e a mesma marca | A guarda do código, que roda no `verificar` de cada repositório |
 | A publicação em produção é sempre aprovada por uma pessoa | O fluxo de publicação da `infra` |
+
+## Segurança e contato
+
+Uma falha de segurança vai pelo canal privado descrito no [SECURITY.md](https://github.com/quorum-bench/.github/blob/main/SECURITY.md), nunca por issue aberta. Dúvidas e pedidos seguem o [SUPPORT.md](https://github.com/quorum-bench/.github/blob/main/SUPPORT.md). Quem contribui segue o [CONTRIBUTING.md](https://github.com/quorum-bench/.github/blob/main/CONTRIBUTING.md) e o [código de conduta](https://github.com/quorum-bench/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## Para quem é da organização
 

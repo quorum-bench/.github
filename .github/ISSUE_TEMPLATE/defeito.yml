@@ -1,0 +1,30 @@
+name: Defeito
+description: Algo que o Bench faz errado. Sem dado de pessoa, sem print com nome, e-mail ou empresa.
+labels: [defeito]
+body:
+  - type: textarea
+    id: o-que
+    attributes:
+      label: O que acontece
+      description: O que você fez, o que esperava e o que aconteceu.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduzir
+    attributes:
+      label: Como reproduzir
+      description: Os passos, no ambiente local ou na homologação. Nunca com dado de pessoa.
+    validations:
+      required: true
+  - type: dropdown
+    id: onde
+    attributes:
+      label: Onde
+      options: [web, aplicativo, console, api, worker, mídia, banco, ambiente local, outro]
+    validations:
+      required: true
+  - type: textarea
+    id: requisito
+    attributes:
+      label: Requisito ou decisão tocada
+      description: O ID do requisito (por exemplo, MO-05) ou o ADR, se souber.
