@@ -25,7 +25,7 @@ Duas regras governam cada linha de código desta organização:
 | Repositório | O que é | Documentação |
 | --- | --- | --- |
 | [web](https://github.com/quorum-bench/web) | A vitrine de quem compra, a avaliação em sete passos e o painel de quem fornece | completa |
-| [console](https://github.com/quorum-bench/console) | O console da equipe: moderação, casos, contas, equipe e comercial | básica |
+| [console](https://github.com/quorum-bench/console) | O console da equipe: moderação, casos, contas, equipe e comercial | completa |
 | [api](https://github.com/quorum-bench/api) | A API `/v1` que o aplicativo e as integrações usam | básica |
 | [worker](https://github.com/quorum-bench/worker) | A caixa de saída, a agenda e os expurgos | básica |
 | [midia](https://github.com/quorum-bench/midia) | A limpeza de imagem e PDF antes de qualquer arquivo ir ao ar | básica |
