@@ -27,7 +27,7 @@ Duas regras governam cada linha de código desta organização:
 | [web](https://github.com/quorum-bench/web) | A vitrine de quem compra, a avaliação em sete passos e o painel de quem fornece | completa |
 | [console](https://github.com/quorum-bench/console) | O console da equipe: moderação, casos, contas, equipe e comercial | completa |
 | [api](https://github.com/quorum-bench/api) | A API `/v1` que o aplicativo e as integrações usam | completa |
-| [worker](https://github.com/quorum-bench/worker) | A caixa de saída, a agenda e os expurgos | básica |
+| [worker](https://github.com/quorum-bench/worker) | A caixa de saída, a agenda e os expurgos | completa |
 | [midia](https://github.com/quorum-bench/midia) | A limpeza de imagem e PDF antes de qualquer arquivo ir ao ar | básica |
 | [banco](https://github.com/quorum-bench/banco) | As migrações do PostgreSQL, as funções `api.*` e a segurança por linha | completa |
 | [pacotes](https://github.com/quorum-bench/pacotes) | O domínio, os contratos da `/v1`, as portas e a guarda do código | básica |
