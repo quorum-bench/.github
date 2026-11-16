@@ -46,7 +46,7 @@ Duas regras governam cada linha de código desta organização:
 | [infra](https://github.com/quorum-bench/infra) | A infraestrutura como código e o ambiente local em contêineres | completa |
 | [docs](https://github.com/quorum-bench/docs) | As decisões, os requisitos, a arquitetura, o plano e a operação | completa |
 
-"Completa" quer dizer: README com diagramas e telas reais, guias de começar, arquitetura, referência, operação, testes e solução de problemas, e conferências que reprovam link quebrado e tabela desatualizada.
+"Completa" quer dizer: README com diagramas (e telas reais onde o repositório tem tela), guias de começar, arquitetura, referência, operação, testes e solução de problemas, e conferências que reprovam link quebrado e tabela desatualizada.
 ## Como trabalhamos
 
 | Regra | Quem a executa |
