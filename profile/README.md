@@ -16,6 +16,14 @@
 
 **O Bench é onde quem compra tecnologia numa grande empresa consulta a experiência de quem já usou o fornecedor, para o mesmo propósito.** A leitura dos pares aparece em três partes, Fit, Neutro e Unfit, com o número de avaliações ao lado. Nunca nota única, estrela ou ranking, e nenhum plano de fornecedor compra nota, posição ou destaque.
 
+<!-- print-hml-25-11 -->
+<p align="center">
+  <img src="assets/entrar-1440.png" alt="Tela de entrada do Bench no computador, 1440 px: a promessa à esquerda e as formas de entrar à direita." width="68%">
+  <img src="assets/entrar-375.png" alt="Tela de entrada do Bench no celular, 375 px." width="24%">
+</p>
+
+*A entrada do Bench na homologação, capturada em 25/11/2026 em 1440 e 375 px. As demais telas pedem conta e seguem nos prints da semente fictícia.*
+
 Duas regras governam cada linha de código desta organização:
 
 > **Nada identifica quem pesquisa.** O fornecedor só sabe quem é o comprador quando o comprador pede contato.
