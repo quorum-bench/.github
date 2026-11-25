@@ -68,3 +68,7 @@ Uma falha de segurança vai pelo canal privado descrito no [SECURITY.md](https:/
 Quem é membro vê, nesta mesma página, o perfil interno: as telas do produto, como subir o ambiente local, as contas de teste e o estado de cada repositório.
 
 Uma iniciativa da QUORUM.
+
+---
+
+Documento interno QUORUM · 25/11/2026
